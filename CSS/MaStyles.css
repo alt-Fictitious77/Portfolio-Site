@@ -62,7 +62,7 @@ ul{
     margin-top: -10px;
     font-size: 72px;
     color: white;
-    /*background-image: url(/Users/andrewma/Desktop/Personal_Website/Images/City_at_Night.jpg);*/
+    /*background-image: url(.../Images/City_at_Night.jpg);*/
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ ul{
 
 .BottomTab{
     height: 500px;
-    background-image: url(Personal_Website_Temp/Images/City_at_Night.jpg);
+    background-image: url(.../Images/City_at_Night.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
