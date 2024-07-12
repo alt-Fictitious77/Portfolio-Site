@@ -1,0 +1,207 @@
+/*Tags*/
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+    border-color: #EEEEEE;
+    width: 400px;
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 2;
+}
+
+a{
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+h2{
+    font-size: 36px;
+    font-family: 'Helvetica', sans-serif;
+    color: #9EA1D4;
+}
+h3{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    color: #A8D1D1;
+}
+ul{
+    text-align: center;
+}
+
+
+/*Classes*/
+
+.navBar{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    z-index: 5;
+}
+
+.navItem{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #9EA1D4;
+}
+
+.Titles{
+    height: 950px;
+    margin-top: -10px;
+    font-size: 72px;
+    color: white;
+    /*background-image: url(/Users/andrewma/Desktop/Personal_Website/Images/City_at_Night.jpg);*/
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-shadow: 2px 2px 4px black;
+}
+
+.homeBG{
+    position: absolute;
+    right: 0;
+    -webkit-filter: brightness(80%);
+}
+
+.Main{
+    background-attachment: scroll;
+}
+
+.BottomTab{
+    height: 500px;
+    background-image: url(Personal_Website_Temp/Images/City_at_Night.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+a:hover{
+    -webkit-filter: brightness(60%);
+}
+.Skills{
+    z-index: 1;
+}
+.WebDev{
+    max-width: 30%;
+    margin-left: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+.webDevIE{
+    max-width: 20%;
+    position: relative;
+    top: 50px;
+    margin-left: 13%;
+    display: inline-block;
+}
+.webDevImgs{
+    height: 300px;
+    max-width: 350px;
+}
+.footBlogh2{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.ebtcch2{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.VisualDiv{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    /*left: 705px;*/
+    top: -250px;
+    background-color: #FD8A8A;
+    box-shadow: 5px 5px 50px 50px #F1F7B5;
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.VisualDivContainer{
+    height: 300px;
+}
+.Film{
+    max-width: 35%;
+    margin-left: /*1100px 400px*/ 22%;
+    display: inline-block;
+}
+.Animation{
+    max-width: 30%;
+    margin-left: 15%;
+    display: inline-block;
+}
+.featured{
+    max-width: 60%;
+    text-align: center;
+}
+.fullDisplay{
+    max-width: 90%;
+}
+.animDisplays{
+    display: inline-block; 
+    margin-left: 2%;
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+}
+.ytProfiles{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-left: 120px;
+}
+.pdfDisplay{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+}
+.contactInfo{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1420px){
+    p{
+        font-size: 1.2rem;
+    }
+    .Film{
+        display: block;
+    }
+}
+
+@media (max-width: 920px){
+    .webDevIE{
+        display: block;
+    }
+}
